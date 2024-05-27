@@ -4,19 +4,19 @@
   "team_homepage": "https://ministryofjustice.github.io/data-and-analytics-engineering/",
   "quadrants": [
     {
-      "name": "Languages",
+      "name": "Techniques",
       "_location": "Bottom Right"
     },
     {
-      "name": "Infrastructure",
+      "name": "Platforms",
       "_location": "Bottom Left"
     },
     {
-      "name": "Datastores",
+      "name": "Tools",
       "_location": "Top Left"
     },
     {
-      "name": "Data Management",
+      "name": "Languages and Frameworks",
       "_location": "Top Right"
     }
   ],
