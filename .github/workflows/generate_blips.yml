@@ -1,0 +1,18 @@
+name: Generate blips.json
+
+on: workflow_dispatch
+
+permissions:
+  contents: write
+  discussions: read
+  id-token: write
+
+jobs:
+  generate_blips:
+    runs-on: ubuntu-latest
+    name: Generate blips.json
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Generate blips.json
+        uses: moj-analytical-services/actions-generate-tech-radar-blips@main
