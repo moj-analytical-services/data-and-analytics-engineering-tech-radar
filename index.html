@@ -9,7 +9,7 @@
 <link rel="shortcut icon" href="favicon.ico">
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/moj-analytical-services/generate-tech-radar@0.1.0/script.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/moj-analytical-services/generate-tech-radar@0.1.3/script.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/moj-analytical-services/generate-tech-radar@0.1.1/styles.css">
 </head>
 
@@ -19,28 +19,17 @@
 
 <script>
 Promise.all([
-  fetch('./config.json').then(response => response.json()),
-  fetch('./radar.json').then(response => response.json())
-]).then(function([data, radar]) {
-  radar_visualization({
-    svg_id: "radar",
-    width: 1450,
-    height: 1000,
-    colors: {
-      background: "#fff",
-      grid: '#dddde0',
-      inactive: "#ddd"
-    },
+  fetch('./blips.json').then(response => response.json()),
+  fetch('./radar_config.json').then(response => response.json())
+]).then(function([blips, radar]) {
+  generate_tech_radar({
     title: radar.title,
     tech_radar_homepage: radar.tech_radar_homepage,
     team_homepage: radar.team_homepage,
-    date: data.date,
+    date: blips.date,
     quadrants: radar.quadrants,
     rings: radar.rings,
-    print_layout: true,
-    links_in_new_tabs: true,
-    // zoomed_quadrant: 0,
-    entries: data.entries
+    entries: blips.entries
   });
 }).catch(function(err) {
   console.log('Error loading configuration files', err);
