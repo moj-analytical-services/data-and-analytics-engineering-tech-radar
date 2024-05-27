@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="description" content="Tech Radar: a tool to visualize technology choices, inspire and support Engineering teams to pick the best technologies for new projects">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tech Radar</title>
+<link rel="shortcut icon" href="favicon.ico">
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/moj-analytical-services/generate-tech-radar@0.1.0/script.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/moj-analytical-services/generate-tech-radar@0.1.1/styles.css">
+</head>
+
+<body>
+
+<svg id="radar"></svg>
+
+<script>
+Promise.all([
+  fetch('./config.json').then(response => response.json()),
+  fetch('./radar.json').then(response => response.json())
+]).then(function([data, radar]) {
+  radar_visualization({
+    svg_id: "radar",
+    width: 1450,
+    height: 1000,
+    colors: {
+      background: "#fff",
+      grid: '#dddde0',
+      inactive: "#ddd"
+    },
+    title: radar.title,
+    tech_radar_homepage: radar.tech_radar_homepage,
+    team_homepage: radar.team_homepage,
+    date: data.date,
+    quadrants: radar.quadrants,
+    rings: radar.rings,
+    print_layout: true,
+    links_in_new_tabs: true,
+    // zoomed_quadrant: 0,
+    entries: data.entries
+  });
+}).catch(function(err) {
+  console.log('Error loading configuration files', err);
+});
+</script>
+
+</body>
+</html>
