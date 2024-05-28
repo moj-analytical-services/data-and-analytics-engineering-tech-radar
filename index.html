@@ -9,8 +9,8 @@
 <link rel="shortcut icon" href="favicon.ico">
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/moj-analytical-services/generate-tech-radar@0.1.4/script.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/moj-analytical-services/generate-tech-radar@0.1.0/styles.css">
+<script src="https://cdn.jsdelivr.net/gh/SoumayaMauthoorMOJ/tech-radar@0.0.1/docs/radar.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SoumayaMauthoorMOJ/tech-radar@0.0.1/docs/radar.css">
 </head>
 
 <body>
@@ -22,14 +22,14 @@ Promise.all([
   fetch('./blips.json').then(response => response.json()),
   fetch('./radar_config.json').then(response => response.json())
 ]).then(function([blips, radar]) {
-  generate_tech_radar({
+  radar_visualization({
     title: radar.title,
     tech_radar_homepage: radar.tech_radar_homepage,
-    team_homepage: radar.team_homepage,
     date: blips.date,
     quadrants: radar.quadrants,
     rings: radar.rings,
-    entries: blips.entries
+    entries: blips.entries,
+    print_ring_descriptions: true
   });
 }).catch(function(err) {
   console.log('Error loading configuration files', err);
