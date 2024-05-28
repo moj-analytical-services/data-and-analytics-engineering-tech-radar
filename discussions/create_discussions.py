@@ -130,7 +130,6 @@ with open('radar_config.json') as f:
     radar = json.load(f)
 
 for entry in entries["entries"]:
-    print(entry["name"])
     category_id = categories[radar['quadrants'][entry['quadrant']]['name']]
     label_name = radar['rings'][entry['ring']]['name']
     emoji = radar['rings'][entry['ring']]['emoji']
@@ -143,5 +142,6 @@ for entry in entries["entries"]:
     client.execute(add_label, variable_values={"label_id":label_id,"labelable_id":discussion_id})
     comment = f"## {entries['date']}: {label_name}"
     client.execute(add_comment,variable_values={"discussion_id":discussion_id,"body":comment})
+    print(entry["name"])
     # https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#exceeding-the-rate-limit
     time.sleep(1)

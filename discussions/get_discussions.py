@@ -17,7 +17,7 @@ query = gql(
     """
 query {
 repository(owner:"moj-analytical-services", name:"data-and-analytics-engineering-tech-radar") {
-    discussions(last:100) {
+    discussions(first:100) {
     edges {
         node {
         title
@@ -90,7 +90,8 @@ for discussion in reversed(discussions):
     else:
         entries_skipped.append(details)
 
-with open('blips.json', 'w') as f:
+with open('first.json', 'w') as f:
     json.dump(entries_new, f, indent=2)
-with open('skipped_entries.json', 'w') as f:
-    json.dump(entries_skipped, f, indent=2)
+if len(entries_skipped)>0:  
+    with open('skipped_entries.json', 'w') as f:
+        json.dump(entries_skipped, f, indent=2)
