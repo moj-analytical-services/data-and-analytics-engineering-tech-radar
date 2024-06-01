@@ -133,15 +133,15 @@ for entry in entries["entries"]:
     category_id = categories[radar['quadrants'][entry['quadrant']]['name']]
     label_name = radar['rings'][entry['ring']]['name']
     emoji = radar['rings'][entry['ring']]['emoji']
-    label_id = labels[f"{label_name} {emoji}"]
+    label_id = labels[f"{entry['ring']+1}: {label_name} {emoji}"]
     response = client.execute(create_discussion, 
-                              variable_values={"name":entry["name"],
+                              variable_values={"name":entry["label"],
                                                "repo_id":repo_id,
                                                "category_id":category_id})
     discussion_id = response['createDiscussion']["discussion"]['id']
     client.execute(add_label, variable_values={"label_id":label_id,"labelable_id":discussion_id})
     comment = f"## {entries['date']}: {label_name}"
     client.execute(add_comment,variable_values={"discussion_id":discussion_id,"body":comment})
-    print(entry["name"])
+    print(entry["label"])
     # https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#exceeding-the-rate-limit
     time.sleep(1)
