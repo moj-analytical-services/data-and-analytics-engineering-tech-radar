@@ -226,32 +226,11 @@
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/35"
     },
     {
-      "label": "GOV.UK Notify",
-      "quadrant": 2,
-      "ring": 0,
-      "moved": 0,
-      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/36"
-    },
-    {
       "label": "pyenv-virtualenv",
       "quadrant": 1,
       "ring": 0,
       "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/37"
-    },
-    {
-      "label": "data packer",
-      "quadrant": 1,
-      "ring": 0,
-      "moved": 0,
-      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/38"
-    },
-    {
-      "label": "AWS IAM",
-      "quadrant": 1,
-      "ring": 0,
-      "moved": 0,
-      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/39"
     },
     {
       "label": "jira",
@@ -268,13 +247,6 @@
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/36"
     },
     {
-      "label": "pyenv-virtualenv",
-      "quadrant": 1,
-      "ring": 0,
-      "moved": 0,
-      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/37"
-    },
-    {
       "label": "data packer",
       "quadrant": 1,
       "ring": 0,
@@ -287,13 +259,6 @@
       "ring": 0,
       "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/39"
-    },
-    {
-      "label": "jira",
-      "quadrant": 2,
-      "ring": 0,
-      "moved": 0,
-      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/40"
     },
     {
       "label": "data extractor",
@@ -338,7 +303,7 @@
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/47"
     },
     {
-      "label": "git/GitHub",
+      "label": "git",
       "quadrant": 2,
       "ring": 0,
       "moved": 0,
