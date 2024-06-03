@@ -92,7 +92,8 @@ while has_next_page:
                                     "quadrant":quadrant,
                                     "ring":ring,
                                     "moved":ring_change,
-                                    "link": details['url']
+                                    "link": details['url'],
+                                    "active":True
                                     })
                 
             else:
