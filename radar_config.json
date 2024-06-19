@@ -1,6 +1,6 @@
 {
   "title": "MoJ Data and Analytics Engineering Tech Radar",
-  "tech_radar_homepage": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar",
+  "repo_url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar",
   "team_homepage": "https://ministryofjustice.github.io/data-and-analytics-engineering/",
   "quadrants": [
     {
