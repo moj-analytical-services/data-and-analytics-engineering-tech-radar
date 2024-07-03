@@ -101,3 +101,14 @@ The script will generate two JSON files:
 `blips.json`: Contains the extracted radar entries with the current date, which also updates the visualization.
 
 `entries_skipped.json`: (If any) Lists discussions that didn't match the criteria for radar entries.
+### Install a Live Server to View the Output of index.html Locally in VS Code
+
+To view the output of your index.html file in real-time, you need to install the Live Server extension. While some methods may suggest using tools like Yarn to install the necessary packages, we simplify the process by using the Live Server extension in Visual Studio Code (VS Code). This approach avoids unnecessary complexity and streamlines the workflow.
+Follow these steps to install and use Live Server in Visual Studio Code:
+
+- Open Visual Studio Code: Launch VS Code on your computer.
+- Access Extensions: Click on the Extensions icon in the Activity Bar on the side of the window.
+- Search for Live Server: In the Extensions view, type "Live Server" in the search bar.
+- Install Live Server: Click on the Install button for the Live Server extension.
+- Open Your Project: Open the folder containing your project files, including index.html.
+- Start Live Server: Right-click on your index.html file and select "Open with Live Server" from the context menu.
