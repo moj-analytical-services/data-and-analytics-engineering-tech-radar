@@ -1,0 +1,5 @@
+quadrant,entry,Status,ring_old,ring_new,moved_old,moved_new
+Platforms,airflow self-managed,Moved Changed,Assess,Assess,not moved,moved in
+Techniques,Agile,Ring Changed,Adopt,Assess,not moved,not moved
+Tools,Tech Radar,new,,Assess,,new
+Tools,Old Entry,removed,Adopt,,moved in,

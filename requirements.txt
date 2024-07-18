@@ -1,2 +1,3 @@
 gql[all]
 python-dotenv
+pandas

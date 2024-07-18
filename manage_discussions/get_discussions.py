@@ -110,7 +110,7 @@ while has_next_page:
 entries_new = sorted(entries_new, key=lambda k: k['label'].lower())
 blips_new = {"date":str(datetime.date.today()),"entries":entries_new}
 
-with open(f'blips.json', 'w') as f:
+with open(f'blips_.json', 'w') as f:
     json.dump(blips_new, f, indent=2)
 if len(entries_skipped)>0:  
     with open('entries_skipped.json', 'w') as f:

@@ -9,8 +9,8 @@
 <link rel="shortcut icon" href="favicon.ico">
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/zalando/tech-radar@master/docs/radar.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zalando/tech-radar@master/docs/radar.css">
+<script src="http://zalando.github.io/tech-radar/radar.js"></script>
+<link rel="stylesheet" href="http://zalando.github.io/tech-radar/radar.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 
 <script>
 Promise.all([
-  fetch('./blips.json').then(response => response.json()),
+  fetch('./blips_.json').then(response => response.json()),
   fetch('./radar_config.json').then(response => response.json())
 ]).then(function([blips, radar]) {
   radar_visualization({
