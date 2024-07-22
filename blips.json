@@ -1,5 +1,5 @@
 {
-  "date": "2021-11",
+  "date": "2024-07-22",
   "entries": [
     {
       "label": "Acceptance Criteria",
@@ -487,6 +487,14 @@
       "ring": 3,
       "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/96",
+      "active": true
+    },
+    {
+      "label": "Go",
+      "quadrant": 3,
+      "ring": 1,
+      "moved": null,
+      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/155",
       "active": true
     },
     {
