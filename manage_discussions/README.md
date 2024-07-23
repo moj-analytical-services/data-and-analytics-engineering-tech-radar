@@ -1,8 +1,6 @@
 # Tech Radar Discussion Management
 
-`get_discussions.py` extracts technology radar entries from [the tech radar GitHub Discussions](https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions) and outputs them in a structured `JSON` format used by the visualization framework. It can also compare the extracted data with a previous snapshot to identify changes.
-
-The `get_discussions.py` script fetches current discussions from a specified GitHub repository, compares them with existing data in `blips.json` (if available), and updates the local data to reflect the latest discussion status. The `create_discussions.py` script generates new discussions in the GitHub repository based on the entries defined in `blips.json`, assigns appropriate labels, and posts initial comments to each discussion. Lastly, the `delete_discussion.py` script deletes discussions from the GitHub repository, ensuring that any unnecessary or outdated discussions are removed.
+`get_discussions.py` extracts technology radar entries from [the tech radar GitHub Discussions](https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions) and outputs them in a structured `JSON` format used by the visualization framework. It can also compare the extracted data with a previous snapshot to identify changes. The `create_discussions.py` script generates new discussions in the GitHub repository based on the entries defined in `blips.json`, assigns appropriate labels, and posts initial comments to each discussion. Lastly, the `delete_discussion.py` script deletes discussions from the GitHub repository, ensuring that any unnecessary or outdated discussions are removed.
 
 
 
