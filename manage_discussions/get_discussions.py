@@ -88,6 +88,8 @@ while has_next_page:
                 ring_old = blips_old.get(details['title'])
                 if ring_old is not None:
                     ring_change = ring_old - ring
+                else:
+                    ring_change = 2
                 entries_new.append({"label":details['title'],
                                     "quadrant":quadrant,
                                     "ring":ring,
