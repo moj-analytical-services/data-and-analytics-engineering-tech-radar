@@ -1,6 +1,6 @@
 # Tech Radar Discussion Management
 
-This script extracts technology radar entries from [the tech radar GitHub Discussions](https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions) and outputs them in a structured `JSON` format used by the visualization framework. It can also compare the extracted data with a previous snapshot to identify changes.
+`get_discussions.py` extracts technology radar entries from [the tech radar GitHub Discussions](https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions) and outputs them in a structured `JSON` format used by the visualization framework. It can also compare the extracted data with a previous snapshot to identify changes.
 
 
 
