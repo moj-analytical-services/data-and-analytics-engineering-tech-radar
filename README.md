@@ -1,6 +1,6 @@
 # Data and Analytics Engineering Tech Radar
 
-The MoJ [Data and Analytics Engineering community](https://ministryofjustice.github.io/data-and-analytics-engineering/), 
+The MoJ [Data and Analytics Engineering community](https://ministryofjustice.github.io/data-and-analytics-engineering/)
 maintains a [public Tech Radar](http://zalando.github.io/tech-radar/) to help
 align technology choices within our teams. This Tech Radar is based on [pioneering work
 by ThoughtWorks](https://www.thoughtworks.com/radar) and uses a modified version of Zalando's 
