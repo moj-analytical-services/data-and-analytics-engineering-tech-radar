@@ -9,7 +9,7 @@ by ThoughtWorks](https://www.thoughtworks.com/radar) and uses Zalando's JavaScri
 Tech radar blips are configured in `blips.json`, while tech radar rings and quadrants are set up in `radar_config.json`. Additional context for the blips is provided by GitHub discussions, which are queried using the GitHub GraphQL API to populate `blips.json`
 
 
-### Viewing the Output Locally in VS Code
+### Viewing the output locally in VS Code
 #### Install Live Server Extension
 <ol>
   <li>Open Visual Studio Code: Launch VS Code on your computer.</li>
