@@ -29,25 +29,27 @@
       "_location": "Inner ring"
     },
     {
-      "name": "TRIAL",
-      "color": "#009eb0",
-      "description": "Technologies that we have seen work with success in project work to solve a real problem; first serious usage experience that confirm benefits and can uncover limitations. TRIAL technologies are slightly more risky; some engineers in our organization walked this path and will share knowledge and experiences.",
+      "name": "ASSESS",
+      "color": "#c7ba00",
+      "description": "Technologies that are promising and have clear potential value-add for us; technologies worth to invest some research and prototyping efforts in to see if it has impact. ASSESS technologies have higher risks; they are often brand new and highly unproven in our organisation. You will find some engineers that have knowledge in the technology and promote it, you may even find teams that have started a prototyping effort.",
       "emoji": ":+1:",
       "_location": "Second ring"
     },
     {
-      "name": "ASSESS",
-      "color": "#c7ba00",
-      "description": "Technologies that are promising and have clear potential value-add for us; technologies worth to invest some research and prototyping efforts in to see if it has impact. ASSESS technologies have higher risks; they are often brand new and highly unproven in our organisation. You will find some engineers that have knowledge in the technology and promote it, you may even find teams that have started a prototyping effort.",
+      "name": "HOLD",
+      "color": "#e09b96",
+      "description": "Technologies that we think are not (yet) worth to investigate and not recommended to be used for new projects.",
       "emoji": ":eyes:",
       "_location": "Third ring"
     },
     {
-      "name": "HOLD",
-      "color": "#e09b96",
-      "description": "Technologies not recommended to be used for new projects. Technologies that we think are not (yet) worth to (further) invest in. HOLD technologies should not be used for new projects, but usually can be continued for existing projects.",
-      "emoji": ":-1:",
+      "name": "RETIRE",
+      "color": "#009eb0",
+      "description": "This technology or technique has now been superseded, stop using for new projects. Can usually can be continued for existing projects if migrating to the replacement technology is significant.",
+      "emoji": ":frowning:",
       "_location": "Outer ring"
     }
   ]
 }
+
+
