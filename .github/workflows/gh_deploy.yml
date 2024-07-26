@@ -1,4 +1,4 @@
-name: Deploy static content to Pages
+name: Deploy to Pages
 
 on:
   push:
@@ -18,8 +18,18 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+    
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Download moj theme
+        run: wget https://raw.githubusercontent.com/ministryofjustice/marp-moj-theme/main/themes/moj.css
+      - name: Copy slides
+        run: cp -r ./slides ./build
+      - name: Marp Build
+        run: npx @marp-team/marp-cli@latest ./build --html --theme moj.css
+      - name: Copy tech radar
+        run: cp -r ./tech_radar/. ./build     
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
