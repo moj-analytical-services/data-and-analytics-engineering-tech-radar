@@ -7,11 +7,15 @@ import datetime
 
 load_dotenv()
 GH_TOKEN = os.environ['GH_TOKEN']
+COMPARE = True
+blips_path = './tech_radar/blips.json'
+radar_config_path = './tech_radar/radar_config.json'
+entries_skipped_path = './tech_radar/entries_skipped.json'
+
 transport = AIOHTTPTransport(url='https://api.github.com/graphql',
                              headers={'Authorization':f'token {GH_TOKEN}'}
                              )
 client = Client(transport=transport, fetch_schema_from_transport=True)
-COMPARE=True
 
 query = gql(
     """
@@ -47,13 +51,14 @@ repository(owner:"moj-analytical-services", name:"data-and-analytics-engineering
 
 blips_old = {}
 if COMPARE:
-    with open('blips.json') as f:
+    with open(blips_path) as f:
         config = json.load(f)
     for entry in config['entries']:
         blips_old[entry['label']] = entry['ring']
 
-with open('radar_config.json') as f:
+with open(radar_config_path) as f:
     radar = json.load(f)
+
 ring_index = {}
 for i,ring in enumerate(radar['rings']):
     ring_index[f"{i+1}: {ring['name']} {ring['emoji']}"] = i
@@ -115,8 +120,8 @@ while has_next_page:
 entries_new = sorted(entries_new, key=lambda k: k['label'].lower())
 blips_new = {"date":str(datetime.date.today()),"entries":entries_new}
 
-with open(f'blips.json', 'w') as f:
+with open(blips_path, 'w') as f:
     json.dump(blips_new, f, indent=2)
 if len(entries_skipped)>0:  
-    with open('entries_skipped.json', 'w') as f:
+    with open(entries_skipped_path, 'w') as f:
         json.dump(entries_skipped, f, indent=2)
