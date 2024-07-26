@@ -10,7 +10,7 @@ _footer: ''
 
 <!-- _header: ![w:100](https://raw.githubusercontent.com/ministryofjustice/marp-moj-theme/main/images/moj.png) -->
 
-# [Techniques](https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/2024_august/techniques)
+# [Techniques](https://moj-analytical-services.github.io/data-and-analytics-engineering-tech-radar/2024_august/techniques)
 
 ## Data and Analytics Engineering
 
