@@ -84,18 +84,24 @@ while has_next_page:
             assessment = details['labels']['edges'][0]['node']['name']
             if assessment in ring_index:
                 ring = ring_index[assessment]
-                ring_change = None
+                ring_change = 0
                 ring_old = blips_old.get(details['title'])
-                if ring_old is not None:
-                    ring_change = ring_old - ring
-                else:
+                
+                if ring_old is None:
                     ring_change = 2
-                entries_new.append({"label":details['title'],
-                                    "quadrant":quadrant,
-                                    "ring":ring,
-                                    "moved":ring_change,
+                else:
+                    ring_diff = ring_old - ring
+                    if ring_diff > 0:
+                        ring_change = 1
+                    elif ring_diff < 0:
+                        ring_change = -1
+                    
+                entries_new.append({"label": details['title'],
+                                    "quadrant": quadrant,
+                                    "ring": ring,
+                                    "moved": ring_change,
                                     "link": details['url'],
-                                    "active":True
+                                    "active": True
                                     })
                 
             else:
