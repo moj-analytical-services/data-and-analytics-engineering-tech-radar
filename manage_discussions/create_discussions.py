@@ -7,6 +7,9 @@ import time
 
 load_dotenv()
 GH_TOKEN = os.environ['GH_TOKEN']
+blips_path = './tech_radar/blips.json'
+radar_config_path = './tech_radar/radar_config.json'
+
 transport = AIOHTTPTransport(url='https://api.github.com/graphql',
                              headers={'Authorization':f'token {GH_TOKEN}'}
                              )
@@ -123,10 +126,10 @@ mutation ($discussion_id:ID!,$body:String!){
 """
 )
 
-with open('blips.json') as f:
+with open(blips_path) as f:
     entries = json.load(f)
 
-with open('radar_config.json') as f:
+with open(radar_config_path) as f:
     radar = json.load(f)
 
 for entry in entries["entries"]:
