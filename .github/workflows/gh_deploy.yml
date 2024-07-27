@@ -25,6 +25,8 @@ jobs:
         run: wget https://raw.githubusercontent.com/ministryofjustice/marp-moj-theme/main/themes/moj.css
       - name: Copy slides
         run: cp -r ./slides ./build
+      - name: Rename README.md to index.md
+        run: find ./build -type f -name "README.md" -execdir mv {} index.md \;
       - name: Marp Build
         run: npx @marp-team/marp-cli@latest ./build --html --theme moj.css
       - name: Copy tech radar
