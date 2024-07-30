@@ -7,7 +7,7 @@ The slides are created using [MARP](https://marp.app/), a tool that helps you cr
 
 The process aims at assisting the team facilitators in presenting a summary of their discussions, highlight key takeaways, new entries, and technologies requiring further assessment.
 
-**To update the category page:**
+**To update the slides:**
 
 - Navigate to the relevant tech radar refresh folder, e.g. slides/2024_august
 - Open the `README.md` file in the allocated category folder e.g languages
