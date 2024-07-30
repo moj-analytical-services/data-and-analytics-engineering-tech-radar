@@ -9,7 +9,7 @@ The process aims at assisting the team facilitators in presenting a summary of t
 
 **To update the slides:**
 
-- Navigate to the relevant tech radar refresh folder, e.g. slides/2024_august
+- Navigate to the relevant tech radar refresh folder, e.g. slides/<refresh_date>/<category>
 - Open the `README.md` file in the allocated category folder e.g languages
 - Review and update the content to reflect the outcomes of the most recent Tech Radar discussion
     - Add any new technologies that have been assessed
