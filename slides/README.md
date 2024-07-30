@@ -3,7 +3,7 @@
 This folder contains slides for our Tech Radar discussions, where we track, record the summary and actions from the tech radar refresh across all categories. The slides are organised by the date of the tech radar refresh, with each category having its own `README.md` file.
 
 
-The `.github/workflows` folder contains a GitHub Actions workflow that automatically builds and deploys the category pages when changes are pushed to the `main`. The pages are created using [MARP](https://marp.app/), a tool that helps you create presentations using Markdown.
+The slides are created using [MARP](https://marp.app/), a tool that helps you create presentations using Markdown. The `.github/workflows` folder contains a GitHub Action workflow that automatically converts the README.md files to HTML and deploys to GitHub pages when changes are pushed to `main`. The link to the slides are provided in the README.md header.
 
 The process aims at assisting the team facilitators in presenting a summary of their discussions, highlight key takeaways, new entries, and technologies requiring further assessment.
 
