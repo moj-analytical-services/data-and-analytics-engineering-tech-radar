@@ -16,7 +16,7 @@ The process aims at assisting the team facilitators in presenting a summary of t
     - Note any technologies that are now on pause
     - List any technologies that need further assessment in upcoming discussions
 - Create a Pull Request to merge your changes into the main branch.
-- Once approved, the GitHub Actions workflow will automatically rebuild and redeploy the pages. The links to the category pages are available in each category's markdown file.
+- Once approved, the GitHub Actions workflow will automatically build and deploy the slides.
 
 **Tips and Reminders:**
 * Make sure to follow the Markdown formatting guidelines to ensure a consistent look and feel across all category pages.
