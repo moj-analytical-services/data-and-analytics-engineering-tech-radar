@@ -82,14 +82,6 @@
       "active": true
     },
     {
-      "label": "AWS",
-      "quadrant": 2,
-      "ring": 0,
-      "moved": 0,
-      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/173",
-      "active": true
-    },
-    {
       "label": "AWS Airflow",
       "quadrant": 2,
       "ring": 0,
@@ -98,7 +90,7 @@
       "active": true
     },
     {
-      "label": "aws athena",
+      "label": "AWS athena",
       "quadrant": 3,
       "ring": 0,
       "moved": 0,
@@ -146,7 +138,7 @@
       "active": true
     },
     {
-      "label": "aws glue",
+      "label": "AWS glue",
       "quadrant": 2,
       "ring": 0,
       "moved": 0,
@@ -154,7 +146,7 @@
       "active": true
     },
     {
-      "label": "aws glue catalog",
+      "label": "AWS glue catalog",
       "quadrant": 1,
       "ring": 0,
       "moved": 0,
@@ -202,7 +194,7 @@
       "active": true
     },
     {
-      "label": "aws-vault",
+      "label": "AWS-vault",
       "quadrant": 1,
       "ring": 0,
       "moved": 0,
@@ -442,14 +434,6 @@
       "active": true
     },
     {
-      "label": "git",
-      "quadrant": 2,
-      "ring": 0,
-      "moved": 0,
-      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/218",
-      "active": true
-    },
-    {
       "label": "Git flow",
       "quadrant": 0,
       "ring": 0,
@@ -674,14 +658,6 @@
       "active": true
     },
     {
-      "label": "Oracle",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 0,
-      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/247",
-      "active": true
-    },
-    {
       "label": "Oracle PL/SQL and SQL*Plus",
       "quadrant": 3,
       "ring": 2,
@@ -834,14 +810,6 @@
       "active": true
     },
     {
-      "label": "Python 2.7",
-      "quadrant": 3,
-      "ring": 1,
-      "moved": 0,
-      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/267",
-      "active": true
-    },
-    {
       "label": "Quay.io",
       "quadrant": 2,
       "ring": 1,
@@ -946,7 +914,7 @@
       "active": true
     },
     {
-      "label": "sql",
+      "label": "SQL",
       "quadrant": 3,
       "ring": 0,
       "moved": 0,
