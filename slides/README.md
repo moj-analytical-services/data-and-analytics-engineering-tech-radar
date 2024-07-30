@@ -1,6 +1,6 @@
 # Tech Radar Slides
 
-This folder contains slides for our Tech Radar discussions, where we track, record the summary and actions from the tech radar refresh across all categories. The slides are organized by tech radar year and month, with each category having its own `README.md` file.
+This folder contains slides for our Tech Radar discussions, where we track, record the summary and actions from the tech radar refresh across all categories. The slides are organised by the date of the tech radar refresh, with each category having its own `README.md` file.
 
 
 The `.github/workflows` folder contains a GitHub Actions workflow that automatically builds and deploys the category pages when changes are pushed to the `main`. The pages are created using [MARP](https://marp.app/), a tool that helps you create presentations using Markdown.
