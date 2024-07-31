@@ -14,7 +14,7 @@ _footer: ''
 
 ## Data and Analytics Engineering
 
-##### July 2024
+##### August 2024
 
 ---
 
