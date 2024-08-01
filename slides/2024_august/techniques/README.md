@@ -22,6 +22,8 @@ _footer: ''
 
 - Most techniques on the radar are relatively mature at this point. Radar hasn't changed much.
 - Github as a one-stop shop (favour where appropriate)
+- Pair programming
+  - Great way of onboarding and knowledge sharing
 
 ---
 
