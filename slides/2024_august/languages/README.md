@@ -18,24 +18,43 @@ _footer: ''
 
 ---
 
-## New Technologies / Techniques
-
--
--
--
-
----
-
 ## Technologies / Techniques on pause
 
--
--
--
+- Papermill
+- Commuter
+- FastAPI
+- javascript
+- django
+- R
+- html
+- jupyterbook
+- jupyter
+- typescript
+- Flask
+---
 
+## Technologies / Techniques to replace
+
+- Oracle PL/SQL and SQL*Plus
+- Database access
+- 
+- 
 ---
 
 ## Technologies / Techniques to assess
 
+- 
 -
 -
--
+
+## New Technologies / Techniques
+
+- dlt
+- SQLMesh
+- Lakeformation
+- Pydantic
+- Typer
+- dbt audit helper
+- Meltano
+
+---
