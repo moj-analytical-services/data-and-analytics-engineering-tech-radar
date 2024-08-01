@@ -20,22 +20,30 @@ _footer: ''
 
 ## New Technologies / Techniques
 
--
--
--
+- AWS Bedrock
+- Github Co-Pilot
 
 ---
 
-## Technologies / Techniques on pause
+## Technologies / Techniques to close
 
--
--
--
+- Airflow self managed
+- Quay.io
 
 ---
 
 ## Technologies / Techniques to assess
 
--
--
--
+- AWS Quicksight
+- Athena Python
+
+---
+
+## Technologies / Techniques to replace
+- Oracle
+- Miro
+- Confluence
+- Concourse
+- Glue ETL Jobs
+- DockerHub
+- JIRA
