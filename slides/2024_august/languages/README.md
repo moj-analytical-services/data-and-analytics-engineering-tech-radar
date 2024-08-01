@@ -20,22 +20,25 @@ _footer: ''
 
 ## Technologies / Techniques on pause
 
-- Papermill
-- Commuter
-- FastAPI
-- javascript
-- django
-- R
-- html
-- jupyterbook
-- jupyter
-- typescript
-- Flask
+- Frontend tools not related to 
+    - FastAPI
+    - javascript
+    - django
+    - html
+    - typescript
+    - Flask
+    - Gov.uk Design System
+- Tools more related to Analyst and Data Scientists
+    - jupyterbook
+    - jupyter
+    - R
+    - Papermill
+    - Commuter
+- Oracle PL/SQL and SQL*Plus
 ---
 
 ## Technologies / Techniques to replace
 
-- Oracle PL/SQL and SQL*Plus
 - Database access
 - 
 - 
@@ -43,18 +46,12 @@ _footer: ''
 
 ## Technologies / Techniques to assess
 
-- 
--
--
-
-## New Technologies / Techniques
-
+- Meltano
 - dlt
 - SQLMesh
 - Lakeformation
 - Pydantic
 - Typer
 - dbt audit helper
-- Meltano
 
 ---
