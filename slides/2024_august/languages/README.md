@@ -14,7 +14,7 @@ _footer: ''
 
 ## Data and Analytics Engineering
 
-##### July 2024
+##### August 2024
 
 ---
 
@@ -28,6 +28,7 @@ _footer: ''
     - typescript
     - Flask
     - Gov.uk Design System
+    - tech docs template
 - Tools more related to Analyst and Data Scientists
     - jupyterbook
     - jupyter
@@ -35,13 +36,15 @@ _footer: ''
     - Papermill
     - Commuter
 - Oracle PL/SQL and SQL*Plus
+- python 2.7
 ---
 
 ## Technologies / Techniques to replace
 
 - Database access
-- 
-- 
+- Pandas
+- pulumi
+- unittests
 ---
 
 ## Technologies / Techniques to assess
