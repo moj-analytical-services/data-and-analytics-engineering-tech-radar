@@ -16,26 +16,19 @@ _footer: ''
 
 ##### July 2024
 
----
-
-## New Technologies / Techniques
-
--
--
--
 
 ---
 
-## Technologies / Techniques on pause
+## Technologies / Techniques to adopt
 
--
--
--
+- Dimensional modelling
+- Kimball
+- Vscode on AP?
 
 ---
 
 ## Technologies / Techniques to assess
 
--
--
--
+- Quicksight
+- Medallion Architecture
+- dbt-erd
