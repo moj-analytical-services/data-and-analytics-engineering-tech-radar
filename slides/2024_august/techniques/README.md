@@ -18,24 +18,32 @@ _footer: ''
 
 ---
 
-## New Technologies / Techniques
+## New Techniques
 
--
--
--
-
----
-
-## Technologies / Techniques on pause
-
--
--
--
+- Most techniques on the radar are relatively mature at this point. Radar hasn't changed much.
+- Notifications
+  - More standardised practices and documentation for this    
+- Github as a one-stop shop (favour where appropriate)
 
 ---
 
-## Technologies / Techniques to assess
+## Techniques on pause
 
--
--
--
+- Repository template
+  - Hard to find maintainers and keep templates up-to-date
+- DevOps
+  - Understanding vs practioner. Most of the main techniques are captured in other blips
+- Monorepos vs Multirepos
+  - Very dependent on the situation you find yourself in
+  - Debate should be down to the team
+- Git histories (could potentially be in assess)
+- my code works! (I've no idea why)/Chaos
+
+---
+
+##  Techniques to assess
+
+- User Testing
+  - More tools to get stakeholders to get more actively involved
+  - Where does this process end and interactions with analytics engineers
+
