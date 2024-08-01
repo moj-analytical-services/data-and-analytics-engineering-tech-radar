@@ -14,28 +14,47 @@ _footer: ''
 
 ## Data and Analytics Engineering
 
-##### July 2024
-
----
-
-## New Technologies / Techniques
-
--
--
--
+##### August 2024
 
 ---
 
 ## Technologies / Techniques on pause
 
--
--
--
+- Frontend tools not related to 
+    - FastAPI
+    - javascript
+    - django
+    - html
+    - typescript
+    - Flask
+    - Gov.uk Design System
+    - tech docs template
+- Tools more related to Analyst and Data Scientists
+    - jupyterbook
+    - jupyter
+    - R
+    - Papermill
+    - Commuter
+- Oracle PL/SQL and SQL*Plus
+- python 2.7
+---
 
+## Technologies / Techniques to replace
+
+- Database access
+- Pandas
+- pulumi
+- unittests
 ---
 
 ## Technologies / Techniques to assess
 
--
--
--
+- Meltano
+- dlt
+- SQLMesh
+- Lakeformation
+- Pydantic
+- Typer
+- dbt audit helper
+
+---
