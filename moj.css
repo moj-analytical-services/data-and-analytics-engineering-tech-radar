@@ -1,0 +1,106 @@
+/* @theme moj */
+
+@import 'default';
+
+:root {
+  --primary-color: #005abb;
+  --secondary-color: #fff;
+}
+
+/* Content Slide */
+section {
+  justify-content: flex-start;
+  box-shadow: inset 0 -60px 0 var(--primary-color);
+}
+a,
+h1,
+h2 {
+  color: var(--primary-color);
+}
+footer,
+section::after {
+  color: var(--secondary-color);
+}
+
+/* Title Slide */
+section.title {
+  background: var(--primary-color);
+  justify-content: flex-end;
+  box-shadow: inset 0 200px 0 var(--secondary-color);
+  color: var(--secondary-color);
+}
+section.title a,
+section.title h1,
+section.title h2,
+section.title h3,
+section.title h4,
+section.title h5 {
+  color: var(--secondary-color);
+}
+
+/* Shared */
+h1 {
+  font-size: 70px;
+  font-weight: normal;
+}
+img {
+  background-color: transparent;
+}
+img[alt~='center'] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer,
+section::after {
+  bottom: 10px;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* section.title img {
+  filter: none;
+} */
+section.title header {
+  top: 80px;
+  left: 80px;
+}
+
+/* Columns  */
+.columns {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+section.columns p {
+  font-size: 25px;
+}
+section.columns h3,
+section.columns h4,
+section.columns h5 {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+
+}
+section.columns li {
+  font-size: 25px;
+  margin-left: -30px;
+}
+
+/* Remove box shadow */
+section.columns,
+section.removeBoxShadow {
+  box-shadow: none;
+}
+section.title header img,
+section.columns footer img,
+section.removeBoxShadow footer img {
+  filter: invert(100%);
+}
+section.columns::after,
+section.removeBoxShadow::after {
+  color: var(--primary-color);
+}
