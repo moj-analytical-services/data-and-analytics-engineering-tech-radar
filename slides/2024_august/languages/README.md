@@ -18,7 +18,7 @@ _footer: ''
 
 ---
 
-## Technologies / Techniques on pause
+## Technologies / Techniques on pause I
 
 - Frontend tools not related to 
     - FastAPI
@@ -29,6 +29,11 @@ _footer: ''
     - Flask
     - Gov.uk Design System
     - tech docs template
+
+---
+
+## Technologies / Techniques on pause II
+
 - Tools more related to Analyst and Data Scientists
     - jupyterbook
     - jupyter
@@ -56,5 +61,4 @@ _footer: ''
 - Pydantic
 - Typer
 - dbt audit helper
-
 ---
