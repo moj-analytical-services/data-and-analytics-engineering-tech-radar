@@ -20,22 +20,32 @@ _footer: ''
 
 ## New Technologies / Techniques
 
--
--
--
+- dlt -> can this replace old moj wrappers?
+- Mojap metadata
+- Dataengineeringutils3
+- datapacker
+- data extractor
+- athenatools
+- 
+- Terraform; switched favourability with Pulumi - Pulumi was adopt, Terraform was replace, Pulumi now replace, Terraform adopt.
 
 ---
 
 ## Technologies / Techniques on pause
 
--
--
--
+- Oracel SQL developer - Not relevant at the moment but maybe in the future
 
 ---
 
 ## Technologies / Techniques to assess
 
--
--
--
+- dlt / moltano
+- Marp; used to produce these fantastic slides
+- Github Wikis; hear that Supratik has produced some good use cases for it
+- Ruff
+
+---
+
+## Gaps
+- Package management (requirements, poetry etc.)
+- IDEs? Should it matter which one people use?
