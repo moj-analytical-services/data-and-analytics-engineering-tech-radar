@@ -21,8 +21,6 @@ _footer: ''
 ## New Techniques
 
 - Most techniques on the radar are relatively mature at this point. Radar hasn't changed much.
-- Notifications
-  - More standardised practices and documentation for this    
 - Github as a one-stop shop (favour where appropriate)
 
 ---
@@ -46,4 +44,6 @@ _footer: ''
 - User Testing
   - More tools to get stakeholders to get more actively involved
   - Where does this process end and interactions with analytics engineers
-
+- Notifications
+  - More standardised practices and documentation for this
+  - When and where should these be used? Slack for failed DAGs, for example?
