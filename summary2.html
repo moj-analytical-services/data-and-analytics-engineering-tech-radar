@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="description" content="Tech Radar Summary">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tech Radar Summary</title>
+<link rel="shortcut icon" href="favicon.ico">
+
+<link href="https://cdn.jsdelivr.net/npm/govuk-frontend@4.7.0/dist/govuk/govuk-frontend.min.css" rel="stylesheet">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .nav-link {
+    background-color: #00703c;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  #summary {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .ring {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .ring h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #00703c;
+    padding-bottom: 10px;
+  }
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .stats .total {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00703c;
+  }
+  .stats-details {
+    display: flex;
+    gap: 10px;
+  }
+  .stat-item {
+    background-color: #f3f2f1;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-top: 10px;
+  }
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .entry-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Tech Radar Summary</h1>
+  <a class="nav-link" href="index.html">Back to Radar</a>
+</header>
+
+<div id="summary"></div>
+
+<script>
+fetch('./blips_.json')
+  .then(response => response.json())
+  .then(data => {
+    const rings = ['Adopt', 'Trial', 'Assess', 'Hold'];
+    const quadrants = ['Techniques', 'Tools', 'Platforms', 'Languages & Frameworks'];
+    const summary = document.getElementById('summary');
+
+    rings.forEach((ring, ringIndex) => {
+      const ringEntries = data.entries.filter(entry => entry.ring === ringIndex);
+      const ringDiv = document.createElement('div');
+      ringDiv.className = 'ring';
+      
+      const stats = {
+        total: ringEntries.length,
+        new: ringEntries.filter(e => e.moved === 1).length,
+        moved: ringEntries.filter(e => e.moved !== 0).length,
+        active: ringEntries.filter(e => e.active).length
+      };
+
+      ringDiv.innerHTML = `
+        <h2>${ring}</h2>
+        <div class="stats">
+          <span class="total">${stats.total} entries</span>
+          <div class="stats-details">
+            <span class="stat-item">New: ${stats.new}</span>
+            <span class="stat-item">Moved: ${stats.moved}</span>
+            <span class="stat-item">Active: ${stats.active}</span>
+          </div>
+        </div>
+        <button class="accordion">Details</button>
+        <div class="panel">
+          ${quadrants.map((quadrant, quadrantIndex) => {
+            const quadrantEntries = ringEntries.filter(entry => entry.quadrant === quadrantIndex);
+            return `
+              <h3>${quadrant}</h3>
+              <ul class="entry-list">
+                ${quadrantEntries.map(entry => `<li><a href="${entry.link}" target="_blank">${entry.label}</a></li>`).join('')}
+              </ul>
+            `;
+          }).join('')}
+        </div>
+      `;
+      
+      summary.appendChild(ringDiv);
+    });
+
+    // Add accordion functionality
+    const acc = document.getElementsByClassName("accordion");
+    for (let i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        const panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+  })
+  .catch(err => {
+    console.log('Error loading entries', err);
+    document.getElementById('summary').textContent = 'Error loading entries';
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/govuk-frontend@4.7.0/dist/govuk/govuk-frontend.min.js"></script>
+<script>
+  window.GOVUKFrontend.initAll()
+</script>
+
+</body>
+</html>

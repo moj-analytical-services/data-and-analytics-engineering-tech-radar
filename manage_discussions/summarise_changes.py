@@ -1,3 +1,6 @@
+"""This script is still in progress. Aim is to capture and summarise in the status of the entries.
+At the moment, this outputs a csv, providing a summary of entries with changes across all categories"""
+
 import json
 import pandas as pd
 from datetime import datetime
@@ -190,7 +193,7 @@ for key, value in changes.items():
         summary[key] = value
 
 
-# print(process_tech_radar_data(summary))
+print(process_tech_radar_data(summary))
 
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 filename = f"manage_discussions/tech_radar_changes_{timestamp}.csv"

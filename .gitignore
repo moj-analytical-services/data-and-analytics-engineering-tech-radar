@@ -4,5 +4,5 @@
 
 # python
 venv/
-.csv
+*.csv
 blips_.json
