@@ -1,0 +1,821 @@
+[
+  {
+    "title": "Gov.uk Design System",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/224",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "5. PAUSE :eyes:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Python 2.7",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/267",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "5. PAUSE :eyes:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "MS Office",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/324",
+    "closed": false,
+    "category": {
+      "name": "Tools"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": ":people_holding_hands: Analytics Engineering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "R",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/321",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": ":people_holding_hands: Analytics Engineering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "SCD",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/327",
+    "closed": false,
+    "category": {
+      "name": "Techniques"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": ":people_holding_hands: Analytics Engineering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "RStudio",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/315",
+    "closed": false,
+    "category": {
+      "name": "Platforms"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": ":people_holding_hands: Analytics Engineering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "PowerBI",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/313",
+    "closed": false,
+    "category": {
+      "name": "Tools"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": ":people_holding_hands: Analytics Engineering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Ollama",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/346",
+    "closed": false,
+    "category": {
+      "name": "Tools"
+    },
+    "labels": {
+      "edges": []
+    }
+  },
+  {
+    "title": "Codegen",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/317",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": ":people_holding_hands: Analytics Engineering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "dbt Docs",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/323",
+    "closed": false,
+    "category": {
+      "name": "Tools"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": ":people_holding_hands: Analytics Engineering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Kimball",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/325",
+    "closed": false,
+    "category": {
+      "name": "Techniques"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": ":people_holding_hands: Analytics Engineering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "dbdiagram.io",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/316",
+    "closed": false,
+    "category": {
+      "name": "Tools"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": ":people_holding_hands: Analytics Engineering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "dbt_expectations",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/319",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": ":people_holding_hands: Analytics Engineering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "dbt-ERD",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/318",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": ":people_holding_hands: Analytics Engineering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "DBT Audit_helper",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/320",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": ":people_holding_hands: Analytics Engineering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Dimensional modeling",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/326",
+    "closed": false,
+    "category": {
+      "name": "Techniques"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": ":people_holding_hands: Analytics Engineering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Medallion Architecture",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/322",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": ":people_holding_hands: Analytics Engineering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Multirepos",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/245",
+    "closed": true,
+    "category": {
+      "name": "Techniques"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "2: ASSESS :+1:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "concourse",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/199",
+    "closed": true,
+    "category": {
+      "name": "Platforms"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "4: REPLACE :frowning:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "conda",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/200",
+    "closed": true,
+    "category": {
+      "name": "Platforms"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "3: RETAIN :smile:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Oracle",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/247",
+    "closed": true,
+    "category": {
+      "name": "Platforms"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "4: REPLACE :frowning:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Iceberg",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/342",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": []
+    }
+  },
+  {
+    "title": "AWS Step Functions",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/187",
+    "closed": true,
+    "category": {
+      "name": "Platforms"
+    },
+    "labels": {
+      "edges": []
+    }
+  },
+  {
+    "title": "Quay.io",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/268",
+    "closed": true,
+    "category": {
+      "name": "Platforms"
+    },
+    "labels": {
+      "edges": []
+    }
+  },
+  {
+    "title": "Standardised S3 paths",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/283",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "5. PAUSE :eyes:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Typescript",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/287",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "5. PAUSE :eyes:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Git Histories (Merge vs rebase)",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/341",
+    "closed": true,
+    "category": {
+      "name": "Techniques"
+    },
+    "labels": {
+      "edges": []
+    }
+  },
+  {
+    "title": "Tech docs template",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/284",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "5. PAUSE :eyes:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Monorepos",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/244",
+    "closed": true,
+    "category": {
+      "name": "Techniques"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "2: ASSESS :+1:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "pyenv",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/261",
+    "closed": true,
+    "category": {
+      "name": "Tools"
+    },
+    "labels": {
+      "edges": []
+    }
+  },
+  {
+    "title": "postgres",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/256",
+    "closed": true,
+    "category": {
+      "name": "Tools"
+    },
+    "labels": {
+      "edges": []
+    }
+  },
+  {
+    "title": "Javascript",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/233",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "5. PAUSE :eyes:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Cluster autoscaler",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/196",
+    "closed": true,
+    "category": {
+      "name": "Techniques"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "2: ASSESS :+1:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "AWS SNS",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/186",
+    "closed": true,
+    "category": {
+      "name": "Techniques"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "2: ASSESS :+1:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "data contracts",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/328",
+    "closed": false,
+    "category": {
+      "name": "Tools"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": ":people_holding_hands: Analytics Engineering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Quicksight",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/314",
+    "closed": false,
+    "category": {
+      "name": "Tools"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": ":people_holding_hands: Analytics Engineering"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "What works",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/294",
+    "closed": true,
+    "category": {
+      "name": "Techniques"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "1: ADOPT :rocket:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "DevOps",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/208",
+    "closed": true,
+    "category": {
+      "name": "Techniques"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "1: ADOPT :rocket:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "airflow self-managed",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/166",
+    "closed": true,
+    "category": {
+      "name": "Tools"
+    },
+    "labels": {
+      "edges": []
+    }
+  },
+  {
+    "title": "My code works! (I've no idea why)",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/246",
+    "closed": true,
+    "category": {
+      "name": "Techniques"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "2: ASSESS :+1:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Chaos",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/192",
+    "closed": true,
+    "category": {
+      "name": "Techniques"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "2: ASSESS :+1:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "papermill",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/252",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "5. PAUSE :eyes:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "commuter",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/198",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "5. PAUSE :eyes:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Django",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/209",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "5. PAUSE :eyes:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "FastAPI",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/214",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "5. PAUSE :eyes:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Flask",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/216",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "5. PAUSE :eyes:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "jupyter",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/237",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "5. PAUSE :eyes:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "jupyterbook",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/238",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "5. PAUSE :eyes:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "Oracle PL/SQL and SQL*Plus",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/248",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "5. PAUSE :eyes:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "HTML",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/229",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "5. PAUSE :eyes:"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "title": "R",
+    "url": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/269",
+    "closed": false,
+    "category": {
+      "name": "Languages and Frameworks"
+    },
+    "labels": {
+      "edges": [
+        {
+          "node": {
+            "name": "5. PAUSE :eyes:"
+          }
+        }
+      ]
+    }
+  }
+]
