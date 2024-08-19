@@ -34,7 +34,7 @@
       "active": true
     },
     {
-      "label": "Architecture Decision Records",
+      "label": "ADRs",
       "quadrant": 0,
       "ring": 0,
       "moved": 1,
