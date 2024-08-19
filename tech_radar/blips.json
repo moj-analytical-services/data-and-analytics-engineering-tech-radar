@@ -74,7 +74,7 @@
       "active": true
     },
     {
-      "label": "aws athena",
+      "label": "AWS Athena",
       "quadrant": 1,
       "ring": 0,
       "moved": 0,
@@ -114,7 +114,7 @@
       "active": true
     },
     {
-      "label": "aws glue catalog",
+      "label": "AWS glue catalog",
       "quadrant": 1,
       "ring": 0,
       "moved": 0,
@@ -162,7 +162,7 @@
       "active": true
     },
     {
-      "label": "aws-vault",
+      "label": "AWS-vault",
       "quadrant": 1,
       "ring": 0,
       "moved": 0,
@@ -506,14 +506,6 @@
       "active": true
     },
     {
-      "label": "Iterative phased development",
-      "quadrant": 0,
-      "ring": 0,
-      "moved": 0,
-      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/232",
-      "active": true
-    },
-    {
       "label": "Jinja",
       "quadrant": 3,
       "ring": 0,
@@ -658,7 +650,7 @@
       "active": true
     },
     {
-      "label": "poetry (for publishing packages)",
+      "label": "poetry",
       "quadrant": 2,
       "ring": 0,
       "moved": 0,
