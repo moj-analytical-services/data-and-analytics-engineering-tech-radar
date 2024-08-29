@@ -22,16 +22,14 @@ def github_discussions(
                 access_token=access_token,
                 items_per_page=items_per_page,
                 max_items=max_items,
-            ),
-            name="discussions",
-            write_disposition="replace",
+            )
         ),
     )
 
 
 pipeline = dlt.pipeline(
     "github_discussions",
-    destination="filesystem",
+    destination="duckdb",
     dataset_name="filesystem_discussions",
     full_refresh=True,
 )
