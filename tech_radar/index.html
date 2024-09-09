@@ -9,8 +9,8 @@
 <link rel="shortcut icon" href="favicon.ico">
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/zalando/tech-radar@master/docs/radar.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zalando/tech-radar@master/docs/radar.css">
+<script src="https://cdn.jsdelivr.net/gh/moj-analytical-services/tech-radar@v0.0.2/docs/radar.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/moj-analytical-services/tech-radar@master/docs/radar.css">
 </head>
 
 <body>
@@ -29,7 +29,8 @@ Promise.all([
     quadrants: radar.quadrants,
     rings: radar.rings,
     entries: blips.entries,
-    print_ring_descriptions_table: true
+    print_ring_descriptions_table: true,
+    footer_offset: { x: 400, y: -420 }
   });
 }).catch(function(err) {
   console.log('Error loading configuration files', err);

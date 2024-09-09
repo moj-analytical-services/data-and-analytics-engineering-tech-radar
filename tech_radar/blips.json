@@ -642,14 +642,6 @@
       "active": true
     },
     {
-      "label": "Planning",
-      "quadrant": 0,
-      "ring": 0,
-      "moved": 0,
-      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/254",
-      "active": true
-    },
-    {
       "label": "poetry",
       "quadrant": 2,
       "ring": 0,
@@ -706,14 +698,6 @@
       "active": true
     },
     {
-      "label": "pyenv-virtualenv",
-      "quadrant": 1,
-      "ring": 0,
-      "moved": 0,
-      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/262",
-      "active": true
-    },
-    {
       "label": "PyPI",
       "quadrant": 2,
       "ring": 0,
@@ -759,14 +743,6 @@
       "ring": 1,
       "moved": -1,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/271",
-      "active": true
-    },
-    {
-      "label": "Retrospectives",
-      "quadrant": 0,
-      "ring": 0,
-      "moved": 0,
-      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/272",
       "active": true
     },
     {
