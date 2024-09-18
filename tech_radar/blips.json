@@ -418,14 +418,6 @@
       "active": true
     },
     {
-      "label": "Git flow",
-      "quadrant": 0,
-      "ring": 0,
-      "moved": 0,
-      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/219",
-      "active": true
-    },
-    {
       "label": "GitHub",
       "quadrant": 2,
       "ring": 0,
