@@ -1,21 +1,5 @@
 # Tech Radar Event: Group Distribution and Assignments
 
-## Data Engineer
-
-**Coordinator:**  
-
-
-**Team Members:**  
-
-
-## Analytics Engineer
-
-**Coordinator:**  
-
-
-**Team Members:**  
-  
-
 ## Platforms
 
 **Coordinator:**  
