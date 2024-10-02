@@ -1,16 +1,20 @@
 # Data and Analytics Engineering Tech Radar Refresh
 
-**Event Day:** 
-**Event Time:** 
-**Event Location:**
+**Event Day :** 
+<br>
+
+**Event Time :** 
+<br>
+
+**Event Location :**
 
 ## Overview
 
-The MoJ Data and Analytics Engineering community maintains a public Tech Radar to help align technology choices within and across our teams. This Tech Radar is based on the pioneering work by ThoughtWorks.
+The MoJ Data and Analytics Engineering community maintains a public Tech Radar to help align technology choices within and across our teams. Inspired by the pioneering work of [ThoughtWorks](https://github.com/zalando/tech-radar), our [Tech Radar](https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar) provides a snapshot of tools, techniques, platforms, languages, and frameworks relevant to our teams at a specific point in time. 
 
-The Tech Radar serves as a point-in-time snapshot of tools, techniques, platforms, languages, and frameworks relevant to our teams. Each technology or technique is represented by a `blip` and assigned a rating, which can change over time. Blips can appear or disappear, with a maximum of ~125 blips to make the Tech Radar navigable. We aim to refresh the Tech Radar on a yearly basis.
+Each technology or technique is represented by a `blip` and assigned a rating, which can change over time. Blips can appear or disappear, and we limit the total number to approximately 125 to keep the Tech Radar navigable. Our goal is to refresh the Tech Radar annually.
 
-We use GitHub discussions to provide feedback on the blips, which is then extracted using the GitHub GraphQL API and published to GitHub Pages using a GitHub workflow. We also use Zalando's radar.js JavaScript library to visualize the Tech Radar.
+We use **GitHub discussions** to provide feedback on the blips. This feedback is extracted using the GitHub GraphQL API and published to GitHub Pages using a GitHub workflow. We also use Zalando's radar.js JavaScript library to visualize the Tech Radar.
 
 ## Order of Events
 
@@ -38,14 +42,14 @@ We use GitHub discussions to provide feedback on the blips, which is then extrac
 
 ## Team Discussion
 
-We have divided the Data and Analytics Engineering community into five groups. Each group has an assigned facilitator and a category of blips to review. This approach helps focus feedback during the event, and, progressively, members of other group will have the opportunity to provide feedback on other blips.
+We have divided the Data and Analytics Engineering community into five groups. Each group has an assigned facilitator and a category of blips to review. This focused approach helps streamline feedback during the event. Over time, members will have the opportunity to provide feedback on other blips.
 
 1. Open the Tech Radar discussions link.
 2. Filter on assigned category or the relevant analytics engineering label.
 3. The group facilitator will select the initial blip for discussion.
-4. The group facilitator will create a new comment with the heading `## 2024 August` if it is not already there.
-5. The group facilitator will add a link to the technology if not already present.
-6. Add an emoji to represent the assignment – have a look at the labels for a short explanation of the assignment or the Tech Radar for a longer explanation.
+4. If it isn't already there, the facilitator will create a new comment with the heading `## [Month Year]` *(e.g., `## August 2024`)*.
+5. Ensure each blip includes a link to the technology if not already present.
+6. Add an emoji to represent the assignment – Refer to the labels for a brief explanation of the assignment or consult the Tech Radar for a detailed explanation.
 7. Add any relevant comments or insights.
 8. The group facilitator will assign an assessment/close the discussion based on the emojis.
 9. Discuss any disagreements before proceeding to the next blip.
@@ -54,7 +58,12 @@ We have divided the Data and Analytics Engineering community into five groups. E
 
 ## What Are We Gaining from This Event?
 
-We aim to gather diverse perspectives and expertise on current and emerging technologies from our engineers, and reflect the collective input in our GitHub Discussions for an accurate Tech Radar refresh.
+By bringing together the collective expertise of our engineers, we aim to:
+
+- Ensure our teams are on the same page regarding tools and technologies.
+- Keep up with emerging trends and assess their potential impact.
+- Encourage knowledge sharing across teams.
+- Reflect our collective input in GitHub Discussions for an accurate Tech Radar refresh.
 
 ## What Will We Do After the Event?
 
@@ -77,3 +86,11 @@ As a group facilitator, your responsibilities on the event day include:
 - Update the markdown-based slides, summarizing the most controversial new and paused blips. Follow these instructions to update the slides.
 - Seek feedback from engineers who were not available on the event day.
 - Ensure all blips in your category are assigned or closed prior to the agreed final refresh date.
+
+---
+
+Thank you for your participation and contribution to the Tech Radar refresh. Your insights and collaboration are invaluable in keeping our teams aligned and informed about the latest technologies and trends.
+
+---
+
+*If you have any questions or need assistance, please reach out to @SoumayaMauthoorMOJ*
