@@ -1,8 +1,6 @@
 > **Note:**
-<br>
-> This document was used successfully for our last Tech Radar refresh (August 2024). It has been refined to provide clear, step-by-step instructions for organizing and executing the future events, ensuring a smooth and effective process. 
-<br>
-> You are encouraged to modify or adapt this guide as needed for future refreshes.
+
+> This document was used successfully for our last Tech Radar refresh (August 2024). It has been refined to provide clear, step-by-step instructions for organizing and executing the future events, ensuring a smooth and effective process. You are encouraged to modify or adapt this guide as needed for future refreshes.
 
 # Data and Analytics Engineering Tech Radar Refresh
 
