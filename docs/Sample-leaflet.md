@@ -1,3 +1,9 @@
+> **Note:**
+<br>
+> This document was used successfully for our last Tech Radar refresh (August 2024). It has been refined to provide clear, step-by-step instructions for organizing and executing the future events, ensuring a smooth and effective process. 
+<br>
+> You are encouraged to modify or adapt this guide as needed for future refreshes.
+
 # Data and Analytics Engineering Tech Radar Refresh
 
 **Event Day :** 
@@ -8,7 +14,7 @@
 
 **Event Location :**
 
-## Overview
+## Tech Radar Overview
 
 The MoJ Data and Analytics Engineering community maintains a public Tech Radar to help align technology choices within and across our teams. Inspired by the pioneering work of [ThoughtWorks](https://github.com/zalando/tech-radar), our [Tech Radar](https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar) provides a snapshot of tools, techniques, platforms, languages, and frameworks relevant to our teams at a specific point in time. 
 
