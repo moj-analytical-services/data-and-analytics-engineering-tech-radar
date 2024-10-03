@@ -6,7 +6,7 @@ align technology choices within our teams. This Tech Radar is based on [pioneeri
 by ThoughtWorks](https://www.thoughtworks.com/radar) and uses Zalando's JavaScript Library
 [`radar.js`](https://github.com/zalando/tech-radar/blob/master/docs/radar.js) with [d3.js v4](https://d3js.org) for visualisation.
 
-Tech radar blips are configured in `blips.json`, while tech radar rings and quadrants are set up in `radar_config.json`. Additional context for the blips is provided by GitHub discussions, which are queried using the GitHub GraphQL API to populate `blips.json`
+Tech radar blips are configured in `blips.json`, while tech radar rings and quadrants are set up in `radar_config.json`. Additional context for the blips is provided by GitHub discussions, which are queried using the GitHub GraphQL API to populate `blips.json`. See [manage_discussions](./manage_discussions/README.md) for how we do this.
 
 
 ### Viewing the output locally in VS Code
