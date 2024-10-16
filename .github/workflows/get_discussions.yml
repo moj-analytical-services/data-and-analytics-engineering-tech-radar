@@ -29,9 +29,20 @@ jobs:
         id: check_changes
         run: |
           git diff --exit-code tech_radar/blips.json || echo "blips.json modified"
+        continue-on-error: true 
+
+      - name: Detect if changes were made
+        id: changes_detected
+        run: |
+          git diff --exit-code tech_radar/blips.json
+          if [ $? -ne 0 ]; then
+            echo "::set-output name=changed::true"
+          else
+            echo "::set-output name=changed::false"
+          fi
 
       - name: Commit changes if any
-        if: steps.check_changes.outputs.changed == 'true'
+        if: steps.changes_detected.outputs.changed == 'true'
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
@@ -40,12 +51,12 @@ jobs:
           git commit -m "Auto-update blips.json"
 
       - name: Push changes to new branch
-        if: steps.check_changes.outputs.changed == 'true'
+        if: steps.changes_detected.outputs.changed == 'true'
         run: |
           git push origin update-blips-branch
 
       - name: Create Pull Request
-        if: steps.check_changes.outputs.changed == 'true'
+        if: steps.changes_detected.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v5
         with:
           branch: update-blips-branch
