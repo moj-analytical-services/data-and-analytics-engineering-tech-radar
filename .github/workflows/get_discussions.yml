@@ -25,22 +25,28 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python manage_discussions/get_discussions.py
 
+      - name: Create new branch with timestamp
+        run: |
+          BRANCH="update-blips-branch-$(date +%s)"
+          git checkout -b "$BRANCH"
+          echo "::set-output name=branch::$BRANCH"
+  
       - name: Commit changes (if any)
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git checkout -b update-blips-branch || git checkout update-blips-branch
-          git add tech_radar/blips.json
-          git commit -m "Auto-update blips.json" || echo "No changes to commit"
+          git add blips.json
+          git commit -m "Auto-update tech_radar/blips.json" || echo "No changes to commit"
   
       - name: Push changes to new branch
         run: |
-          git push origin update-blips-branch --force
+          git push origin $(echo ${{ steps.create_new_branch.outputs.branch }}) --force
   
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          branch: update-blips-branch
+          branch: ${{ steps.create_new_branch.outputs.branch }}  # The new branch created earlier
           title: 'Auto-update blips.json'
           body: 'This PR updates the blips.json file automatically.'
+          base: 'main'  # Change this if your default branch is different (e.g., master)
           labels: 'auto-update'
