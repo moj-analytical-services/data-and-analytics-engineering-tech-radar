@@ -1,5 +1,5 @@
 {
-  "date": "2024-08-17",
+  "date": "2024-10-16",
   "entries": [
     {
       "label": "Acceptance Criteria",
@@ -7,6 +7,14 @@
       "ring": 0,
       "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/163",
+      "active": true
+    },
+    {
+      "label": "ADRs",
+      "quadrant": 0,
+      "ring": 0,
+      "moved": 0,
+      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/169",
       "active": true
     },
     {
@@ -34,18 +42,10 @@
       "active": true
     },
     {
-      "label": "ADRs",
-      "quadrant": 0,
-      "ring": 0,
-      "moved": 1,
-      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/169",
-      "active": true
-    },
-    {
       "label": "Arrow",
       "quadrant": 3,
       "ring": 0,
-      "moved": 1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/170",
       "active": true
     },
@@ -53,7 +53,7 @@
       "label": "Automated Notifications",
       "quadrant": 0,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/337",
       "active": true
     },
@@ -69,7 +69,7 @@
       "label": "AWS Airflow - MWAA",
       "quadrant": 1,
       "ring": 0,
-      "moved": 1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/174",
       "active": true
     },
@@ -85,7 +85,7 @@
       "label": "AWS Bedrock",
       "quadrant": 2,
       "ring": 0,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/330",
       "active": true
     },
@@ -109,7 +109,7 @@
       "label": "AWS EKS",
       "quadrant": 2,
       "ring": 0,
-      "moved": 1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/179",
       "active": true
     },
@@ -125,7 +125,7 @@
       "label": "AWS Glue for ETL",
       "quadrant": 2,
       "ring": 3,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/181",
       "active": true
     },
@@ -141,7 +141,7 @@
       "label": "AWS Lake Formation",
       "quadrant": 2,
       "ring": 0,
-      "moved": 1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/184",
       "active": true
     },
@@ -151,14 +151,6 @@
       "ring": 0,
       "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/185",
-      "active": true
-    },
-    {
-      "label": "AWS Quicksight",
-      "quadrant": 2,
-      "ring": 1,
-      "moved": 2,
-      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/331",
       "active": true
     },
     {
@@ -173,7 +165,7 @@
       "label": "black",
       "quadrant": 1,
       "ring": 3,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/189",
       "active": true
     },
@@ -189,7 +181,7 @@
       "label": "Cloud Platform",
       "quadrant": 2,
       "ring": 0,
-      "moved": 1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/195",
       "active": true
     },
@@ -197,7 +189,7 @@
       "label": "Community of practice",
       "quadrant": 0,
       "ring": 0,
-      "moved": 1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/197",
       "active": true
     },
@@ -205,7 +197,7 @@
       "label": "Confluence",
       "quadrant": 2,
       "ring": 3,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/201",
       "active": true
     },
@@ -213,7 +205,7 @@
       "label": "create-a-derived-table",
       "quadrant": 1,
       "ring": 0,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/349",
       "active": true
     },
@@ -221,7 +213,7 @@
       "label": "create-a-pipeline",
       "quadrant": 1,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/348",
       "active": true
     },
@@ -229,7 +221,7 @@
       "label": "data contracts",
       "quadrant": 1,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/328",
       "active": true
     },
@@ -237,7 +229,7 @@
       "label": "data extractor",
       "quadrant": 1,
       "ring": 3,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/202",
       "active": true
     },
@@ -245,7 +237,7 @@
       "label": "data linter",
       "quadrant": 1,
       "ring": 2,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/203",
       "active": true
     },
@@ -261,7 +253,7 @@
       "label": "database access",
       "quadrant": 3,
       "ring": 3,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/339",
       "active": true
     },
@@ -269,7 +261,7 @@
       "label": "dataengineeringutils3",
       "quadrant": 1,
       "ring": 3,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/206",
       "active": true
     },
@@ -277,7 +269,7 @@
       "label": "dbdiagram.io",
       "quadrant": 1,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/316",
       "active": true
     },
@@ -285,7 +277,7 @@
       "label": "dbt",
       "quadrant": 3,
       "ring": 0,
-      "moved": 1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/207",
       "active": true
     },
@@ -293,7 +285,7 @@
       "label": "dbt audit helper",
       "quadrant": 3,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/345",
       "active": true
     },
@@ -301,7 +293,7 @@
       "label": "dbt Docs",
       "quadrant": 1,
       "ring": 0,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/323",
       "active": true
     },
@@ -309,7 +301,7 @@
       "label": "dbt-codegen",
       "quadrant": 3,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/317",
       "active": true
     },
@@ -317,7 +309,7 @@
       "label": "dbt-ERD",
       "quadrant": 3,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/318",
       "active": true
     },
@@ -325,7 +317,7 @@
       "label": "dbt_expectations",
       "quadrant": 3,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/319",
       "active": true
     },
@@ -333,7 +325,7 @@
       "label": "Dimensional modeling",
       "quadrant": 0,
       "ring": 0,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/326",
       "active": true
     },
@@ -341,7 +333,7 @@
       "label": "dlthub",
       "quadrant": 1,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/338",
       "active": true
     },
@@ -357,7 +349,7 @@
       "label": "DockerHub",
       "quadrant": 2,
       "ring": 3,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/211",
       "active": true
     },
@@ -365,7 +357,7 @@
       "label": "duckdb",
       "quadrant": 3,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/340",
       "active": true
     },
@@ -380,8 +372,8 @@
     {
       "label": "etl_manager",
       "quadrant": 1,
-      "ring": 1,
-      "moved": 0,
+      "ring": 2,
+      "moved": -1,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/213",
       "active": true
     },
@@ -389,7 +381,7 @@
       "label": "Excalidraw",
       "quadrant": 2,
       "ring": 0,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/359",
       "active": true
     },
@@ -397,7 +389,7 @@
       "label": "flake8",
       "quadrant": 1,
       "ring": 3,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/215",
       "active": true
     },
@@ -437,7 +429,7 @@
       "label": "GitHub Co-Pilot",
       "quadrant": 2,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/334",
       "active": true
     },
@@ -485,7 +477,7 @@
       "label": "Iceberg",
       "quadrant": 3,
       "ring": 0,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/342",
       "active": true
     },
@@ -493,7 +485,7 @@
       "label": "Integration testing",
       "quadrant": 0,
       "ring": 0,
-      "moved": 1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/231",
       "active": true
     },
@@ -509,7 +501,7 @@
       "label": "jira",
       "quadrant": 2,
       "ring": 3,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/235",
       "active": true
     },
@@ -525,7 +517,7 @@
       "label": "Kimball",
       "quadrant": 0,
       "ring": 0,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/325",
       "active": true
     },
@@ -541,7 +533,7 @@
       "label": "Marp",
       "quadrant": 1,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/333",
       "active": true
     },
@@ -549,7 +541,7 @@
       "label": "Medallion Architecture",
       "quadrant": 3,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/322",
       "active": true
     },
@@ -557,7 +549,7 @@
       "label": "Meltano",
       "quadrant": 3,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/351",
       "active": true
     },
@@ -565,7 +557,7 @@
       "label": "Meta-linters",
       "quadrant": 1,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/361",
       "active": true
     },
@@ -573,7 +565,7 @@
       "label": "miro",
       "quadrant": 2,
       "ring": 2,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/242",
       "active": true
     },
@@ -581,7 +573,7 @@
       "label": "mojap-metadata",
       "quadrant": 1,
       "ring": 2,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/243",
       "active": true
     },
@@ -589,7 +581,7 @@
       "label": "MS Office",
       "quadrant": 1,
       "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/324",
       "active": true
     },
@@ -597,7 +589,7 @@
       "label": "Observability Platform",
       "quadrant": 2,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/356",
       "active": true
     },
@@ -605,7 +597,7 @@
       "label": "Ollama",
       "quadrant": 1,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/346",
       "active": true
     },
@@ -621,7 +613,7 @@
       "label": "Pair Programming",
       "quadrant": 0,
       "ring": 0,
-      "moved": 1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/250",
       "active": true
     },
@@ -629,7 +621,7 @@
       "label": "pandas",
       "quadrant": 3,
       "ring": 2,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/251",
       "active": true
     },
@@ -645,7 +637,7 @@
       "label": "PowerBI",
       "quadrant": 1,
       "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/313",
       "active": true
     },
@@ -661,7 +653,7 @@
       "label": "Pulumi",
       "quadrant": 1,
       "ring": 3,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/258",
       "active": true
     },
@@ -669,7 +661,7 @@
       "label": "pulumi-components",
       "quadrant": 1,
       "ring": 3,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/259",
       "active": true
     },
@@ -677,7 +669,7 @@
       "label": "pydantic",
       "quadrant": 3,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/344",
       "active": true
     },
@@ -714,10 +706,18 @@
       "active": true
     },
     {
+      "label": "Quicksight",
+      "quadrant": 1,
+      "ring": 1,
+      "moved": 2,
+      "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/314",
+      "active": true
+    },
+    {
       "label": "R",
       "quadrant": 3,
       "ring": 2,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/321",
       "active": true
     },
@@ -725,7 +725,7 @@
       "label": "register my data",
       "quadrant": 2,
       "ring": 2,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/270",
       "active": true
     },
@@ -733,7 +733,7 @@
       "label": "Repository template",
       "quadrant": 0,
       "ring": 1,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/271",
       "active": true
     },
@@ -741,7 +741,7 @@
       "label": "RStudio",
       "quadrant": 2,
       "ring": 2,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/315",
       "active": true
     },
@@ -749,7 +749,7 @@
       "label": "ruff",
       "quadrant": 1,
       "ring": 0,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/350",
       "active": true
     },
@@ -765,7 +765,7 @@
       "label": "S3 data packer",
       "quadrant": 1,
       "ring": 3,
-      "moved": -1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/204",
       "active": true
     },
@@ -773,7 +773,7 @@
       "label": "SCD",
       "quadrant": 0,
       "ring": 0,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/327",
       "active": true
     },
@@ -797,7 +797,7 @@
       "label": "shell",
       "quadrant": 3,
       "ring": 0,
-      "moved": 1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/276",
       "active": true
     },
@@ -845,7 +845,7 @@
       "label": "SQLMesh",
       "quadrant": 3,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/335",
       "active": true
     },
@@ -853,7 +853,7 @@
       "label": "Standardised S3 paths",
       "quadrant": 3,
       "ring": 0,
-      "moved": 1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/283",
       "active": true
     },
@@ -861,7 +861,7 @@
       "label": "Terraform",
       "quadrant": 1,
       "ring": 0,
-      "moved": 1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/285",
       "active": true
     },
@@ -869,7 +869,7 @@
       "label": "Test driven development",
       "quadrant": 0,
       "ring": 0,
-      "moved": 1,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/286",
       "active": true
     },
@@ -877,7 +877,7 @@
       "label": "typer",
       "quadrant": 3,
       "ring": 1,
-      "moved": 2,
+      "moved": 0,
       "link": "https://github.com/moj-analytical-services/data-and-analytics-engineering-tech-radar/discussions/343",
       "active": true
     },
