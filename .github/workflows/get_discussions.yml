@@ -1,0 +1,54 @@
+name: run get_discussions.py
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v3
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11' 
+
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: execute py script
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python manage_discussions/get_discussions.py
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --exit-code tech_radar/blips.json || echo "blips.json modified"
+
+      - name: Commit changes if any
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git checkout -b update-blips-branch
+          git add blips.json
+          git commit -m "Auto-update blips.json"
+
+      - name: Push changes to new branch
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git push origin update-blips-branch
+
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          branch: update-blips-branch
+          title: 'Auto-update blips.json'
+          body: 'This PR updates the blips.json file automatically.'
+          labels: 'auto-update'
