@@ -25,38 +25,19 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python manage_discussions/get_discussions.py
 
-      - name: Check for changes
-        id: check_changes
-        run: |
-          git diff --exit-code tech_radar/blips.json || echo "blips.json modified"
-        continue-on-error: true 
-
-      - name: Detect if changes were made
-        id: changes_detected
-        run: |
-          git diff --exit-code tech_radar/blips.json
-          if [ $? -ne 0 ]; then
-            echo "::set-output name=changed::true"
-          else
-            echo "::set-output name=changed::false"
-          fi
-
-      - name: Commit changes if any
-        if: steps.changes_detected.outputs.changed == 'true'
+      - name: Commit changes (if any)
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git checkout -b update-blips-branch
-          git add blips.json
-          git commit -m "Auto-update blips.json"
-
+          git checkout -b update-blips-branch || git checkout update-blips-branch
+          git add tech_radar/blips.json
+          git commit -m "Auto-update blips.json" || echo "No changes to commit"
+  
       - name: Push changes to new branch
-        if: steps.changes_detected.outputs.changed == 'true'
         run: |
-          git push origin update-blips-branch
-
+          git push origin update-blips-branch --force
+  
       - name: Create Pull Request
-        if: steps.changes_detected.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v5
         with:
           branch: update-blips-branch
