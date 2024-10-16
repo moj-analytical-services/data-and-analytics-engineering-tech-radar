@@ -35,8 +35,8 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add blips.json
-          git commit -m "Auto-update tech_radar/blips.json" || echo "No changes to commit"
+          git add tech_radar/blips.json
+          git commit -m "Auto-update blips.json" || echo "No changes to commit"
   
       - name: Push changes to new branch
         run: |
