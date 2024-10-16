@@ -122,6 +122,8 @@ blips_new = {"date":str(datetime.date.today()),"entries":entries_new}
 
 with open(blips_path, 'w') as f:
     json.dump(blips_new, f, indent=2)
+    f.write('\n')
 if len(entries_skipped)>0:  
     with open(entries_skipped_path, 'w') as f:
         json.dump(entries_skipped, f, indent=2)
+        f.write('\n')
